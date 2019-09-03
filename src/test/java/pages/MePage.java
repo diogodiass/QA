@@ -17,10 +17,13 @@ public class MePage extends BasePage {
 		return this;
 	}
 	
-	public MePage clicarBotaoMoreDataAboutYou() {
+	public AddContactPage clicarBotaoAddMoreDataAboutYou() {
 		
+	 navegador.findElement(new By.ByXPath("//button[@data-target=\"addmoredata\"]")).click();     
+	 return new AddContactPage(navegador);
+	 
 	}
 	
-
+	
 
 }
