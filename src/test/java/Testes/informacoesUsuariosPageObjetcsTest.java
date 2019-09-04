@@ -24,7 +24,8 @@ public class informacoesUsuariosPageObjetcsTest {
 	
 	@Before
 	public void setUp() {
-		navegador = Web.createChrome();
+		
+		navegador = Web.createBrowserSatck();
 	}
     @Test
     public void testAdicionarUmaInformacaoAdicionalDoUsuario(
@@ -48,7 +49,7 @@ public class informacoesUsuariosPageObjetcsTest {
 
 	@After
 	public void tearDown() {
-		navegador.quit();
+		//navegador.quit();
 	}
 
 }
