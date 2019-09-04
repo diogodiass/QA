@@ -25,7 +25,8 @@ public class informacoesUsuariosPageObjetcsTest {
 	@Before
 	public void setUp() {
 		
-		navegador = Web.createBrowserSatck();
+		navegador = Web.createChrome();
+	
 	}
     @Test
     public void testAdicionarUmaInformacaoAdicionalDoUsuario(
